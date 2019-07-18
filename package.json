@@ -1,7 +1,7 @@
 {
     "name": "com.pixeye.ecsdb",
     "author": "Pixeye",
-    "displayName": "Actors Data Base",
+    "displayName": "ActorsDB",
     "description": "A simple to use DB made for Actors Framework",
     "unity": "2019.1",
     "version": "2019.7.5",
