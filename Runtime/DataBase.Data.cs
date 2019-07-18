@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Pixeye.Framework
+namespace Pixeye.Framework.DataBase
 {
 	public sealed class Data
 	{
