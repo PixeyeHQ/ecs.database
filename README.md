@@ -1,7 +1,9 @@
 # Actors DataBase
 A simple to use in memory DB made for Actors Framework.
 
-
+## How to Install
+Add ```"com.pixeye.ecsdb": "https://github.com/dimmpixeye/ecs.database.git",``` into your project manifest.json file.
+If you use Assembly Defininition (AD) files then don't forget to add ```Pixeye.Framework.DataBase``` to your AD source.
 
 ## How to use
 Make a data class and Components helper for getting data from entity.
