@@ -1,5 +1,5 @@
 {
-    "name": "Pixeye.Framework.DB",
+    "name": "Pixeye.Framework.DataBase",
     "references": [
         "GUID:fedd4141711632045b4dea8886b8e2e8"
     ],
