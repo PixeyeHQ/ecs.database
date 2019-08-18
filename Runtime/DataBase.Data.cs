@@ -56,7 +56,7 @@ namespace Pixeye.Framework
 				Array.Resize(ref source, entity.id << 1);
 
 			source[entity.id] = source[entityFrom.id];
-			return obj;
+			return source[entity.id];
 		}
 		
 	}
