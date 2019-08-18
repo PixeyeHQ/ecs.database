@@ -49,5 +49,15 @@ namespace Pixeye.Framework
 			source[entity.id] = obj;
 			return obj;
 		}
+		
+		public static Data SetFrom(in this ent entity, ent entityFrom)
+		{
+			if (source.Length <= entity.id)
+				Array.Resize(ref source, entity.id << 1);
+
+			source[entity.id] = source[entityFrom.id];
+			return obj;
+		}
+		
 	}
 }
