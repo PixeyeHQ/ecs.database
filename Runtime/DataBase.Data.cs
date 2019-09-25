@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Pixeye.Actors.DataBase
+namespace Pixeye.Framework
 {
 	public sealed class Data
 	{
@@ -39,7 +39,7 @@ namespace Pixeye.Actors.DataBase
 
 	public static class DBHelper
 	{
-		public static Data[] source = new Data[Entity.settings.SizeEntities];
+		public static Data[] source = new Data[Entity.Settings.SizeEntities];
 
 		public static Data Set(in this ent entity, Data obj)
 		{
