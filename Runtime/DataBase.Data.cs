@@ -39,7 +39,7 @@ namespace Pixeye.Actors
 
 	public static class DBHelper
 	{
-		public static Data[] source = new Data[Entity.Settings.SizeEntities];
+		public static Data[] source = new Data[Framework.Settings.SizeEntities];
 
 		public static Data Set(in this ent entity, Data obj)
 		{
